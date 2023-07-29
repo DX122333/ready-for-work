@@ -36,7 +36,7 @@ void shm_write(){
     }
 
     //读共享内存区
-    printf("shm_read get \" %s \" ", shmadd);
+    printf("shm_read get \" %s \"\n ", shmadd);
 
     //分离共享内存与当前进程
     ret = shmdt(shmadd);
